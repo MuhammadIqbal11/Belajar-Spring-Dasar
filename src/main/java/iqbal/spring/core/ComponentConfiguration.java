@@ -7,9 +7,9 @@ import iqbal.spring.core.data.MultiFoo;
 
 @Configuration
 @ComponentScan(basePackages = {
-    "afifpermana.spring.core.repository",
-    "afifpermana.spring.core.service",
-    "afifpermana.spring.core.configuration"
+    "muhammadiqbal.spring.core.repository",
+    "muhammadiqbal.spring.core.service",
+    "muhammadiqbal.spring.core.configuration"
 })
 @Import(MultiFoo.class)
 public class ComponentConfiguration {
